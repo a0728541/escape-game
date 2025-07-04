@@ -17,7 +17,7 @@ function checkAnswer() {
   const ans = document.getElementById("answer").value.trim();
   const msg = document.getElementById("resultMsg");
   if (ans === "勃起") {
-    msg.innerText = "答對了，原來妳還記得 💗";
+    msg.innerText = "答對了，原來妳還記得，請前往到我房間💗";
     msg.style.color = "green";
   } else {
     msg.innerText = "還記得我說了什麼嗎？再聽一次提示吧～";
